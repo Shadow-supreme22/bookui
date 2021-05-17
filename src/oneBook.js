@@ -47,9 +47,9 @@ class Bookone extends Component{
                 <div className='container-fluid'>
                     <div class='row'>
                         
-                    <div className="col-sm-3.5" >
+                    <div className="col-2 col-s-3" >
                     <div class="card" style={{boxShadow:'0 4px 8px 0 rgba(0,0,0,0,0.2)',transition:'0.3s',borderRadius:'5px'}} key={books.id}>
-  <img src={books.screenshot} alt="Avatar" style={{width:'50rem'}}/>
+  <img src={books.screenshot} alt="Avatar" style={{width:'25rem',height:'auto',objectFit:'contain'}}/>
   
 </div>
                     
